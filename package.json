@@ -1,0 +1,36 @@
+{
+  "name": "copiainterlineado-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx -r tsconfig-paths/register src/server.ts",
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mercadopago": "^2.0.6",
+    "mongoose": "^8.11.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.10.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mercadopago": "^1.5.11",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.17.16",
+    "@types/nodemailer": "^6.4.17",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.3"
+  }
+}
