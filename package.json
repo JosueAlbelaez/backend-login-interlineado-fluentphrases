@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "dev": "tsx -r tsconfig-paths/register src/server.ts",
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --skipLibCheck"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
